@@ -40,3 +40,31 @@ select:hover {
   padding-bottom: 10px;
   color: #222222;
 }
+.text {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.teste {
+  background: #222222;
+  color: #fff;
+  margin: 10px;
+  height: 100px;
+  /*flex-basis: 500px;*/
+}
+.tamanho {
+  width: 1440px;
+  max-width: 90%;
+}
+.height-full {
+  height: 100%;
+}
+.container-box {
+  background: #ccc;
+}
+.cont {
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+.intro {
+  padding-top: 20px;
+}
