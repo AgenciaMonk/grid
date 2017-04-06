@@ -11,6 +11,7 @@ Classes principais para o container:
 - wrap ou nowrap
 - column (row é padrão no container)
 - wrap-mobile ou wrap-tablet
+
 Classes para alinhar o item dentro do container:
 - top-left
 - top-center
@@ -21,6 +22,7 @@ Classes para alinhar o item dentro do container:
 - bottom-left
 - bottom-center
 - bottom-right
+
 # Classes para o ITEM
 Tamanhos flex:
 - flex (flex: 1, os outros possuem flex-grow: x)
@@ -36,6 +38,7 @@ Tamanhos flex:
 - flex10
 - flex11
 - flex12
+
 Clases para quebrar(wrap) os itens, flex-basis:
 - basis1(100px)
 - basis2(200px)
