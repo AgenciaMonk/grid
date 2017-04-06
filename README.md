@@ -6,13 +6,12 @@
 - CONTAINER deve ter um height fixo (aconselho usar min-height :D)
 
 # Classes para o CONTAINER
-classes principais para o container:
+Classes principais para o container:
 - container (Principal)
 - wrap ou nowrap
-- column (row e padrão no container)
+- column (row é padrão no container)
 - wrap-mobile ou wrap-tablet
-
-classes para alinhar o item dentro do container:
+Classes para alinhar o item dentro do container:
 - top-left
 - top-center
 - top-right
@@ -22,7 +21,6 @@ classes para alinhar o item dentro do container:
 - bottom-left
 - bottom-center
 - bottom-right
-
 # Classes para o ITEM
 Tamanhos flex:
 - flex (flex: 1, os outros possuem flex-grow: x)
@@ -55,7 +53,7 @@ Para alinhar o texto:
 
 ex:
 ```html
-<div class="container center-center text">
+<div class="container center-center">
   <div class="item text-center">
     <h1>Hello world!!!</h1>
   </div>
@@ -64,13 +62,13 @@ ex:
 
 ```html
 <div class="container wrap">
-  <div class="flex1">
+  <div class="flex1 basis3">
 
   </div>
-  <div class="flex2">
+  <div class="flex1 basis3">
 
   </div>
-  <div class="flex3">
+  <div class="flex1 basis3">
 
   </div>
 </div>
