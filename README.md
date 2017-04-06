@@ -49,6 +49,7 @@ Clases para quebrar(wrap) os itens, flex-basis:
 - basis7(700px)
 - basis8(800px)
 - basis9(900px)
+
 Para alinhar o texto:
 - text-left
 - text-center
