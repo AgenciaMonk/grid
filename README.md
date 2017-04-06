@@ -58,22 +58,22 @@ Para alinhar o texto:
 ex:
 ```html
 <div class="container center-center">
-  <div class="item text-center">
-    <h1>Hello world!!!</h1>
+  <div class="text-center">
+    ...
   </div>
 </div>
 ```
 
 ```html
-<div class="container wrap">
+<div class="container wrap center-center">
   <div class="flex1 basis3">
-
+    ...
   </div>
   <div class="flex1 basis3">
-
+    ...
   </div>
   <div class="flex1 basis3">
-
+    ...
   </div>
 </div>
 ```
