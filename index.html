@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+  <title>Flexbox align - Monk</title>
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" href="css/flexalign.css">
+</head>
+<body>
+  <div class="container wrap-tablet">
+    <div class="item">
+      <div class="container center-center">
+        <div class="input-form">
+          <div class="input-form-text">
+            <h1>Flexbox align</h1>
+          </div>
+          <select onchange="wow(this.value)">
+            <option value="tl">top-left</option>
+            <option value="tc">top-center</option>
+            <option value="tr">top-right</option>
+            <option value="cl">center-left</option>
+            <option value="cc" selected>center-center</option>
+            <option value="cr">center-right</option>
+            <option value="bl">bottom-left</option>
+            <option value="bc">bottom-center</option>
+            <option value="br">bottom-right</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="item bg-color">
+      <div id="flexAlign" class="container center-center">
+        <div class="margin2">
+          <img src="img/logo.svg" width="200" alt="" class="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
