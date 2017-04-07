@@ -49,7 +49,6 @@ select:hover {
   color: #fff;
   margin: 10px;
   height: 100px;
-  /*flex-basis: 500px;*/
 }
 .tamanho {
   width: 1440px;
@@ -58,8 +57,11 @@ select:hover {
 .height-full {
   height: 100%;
 }
+.width-full {
+  width: 100%;
+}
 .container-box {
-  background: #ccc;
+  background: #ccc!important;
 }
 .cont {
   padding-top: 20px;
