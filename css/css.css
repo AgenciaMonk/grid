@@ -63,10 +63,35 @@ select:hover {
 .container-box {
   background: #ccc!important;
 }
+.container-box2 {
+  background: #ccc!important;
+    min-height: 300px;
+}
 .cont {
   padding-top: 20px;
   padding-bottom: 20px
 }
 .intro {
   padding-top: 20px;
+}
+.menu-full {
+  background: #222222
+}
+.menu {
+  min-height: 70px;
+  color: #fff
+}
+.item-menu {
+  margin: 10px;
+}
+.site-menu {
+  background: #fff;
+  padding: 10px;
+}
+.site-conteudo {
+  background: #ccc;
+  padding: 10px;
+}
+.container-site {
+  height: calc(100% - 70px)
 }
